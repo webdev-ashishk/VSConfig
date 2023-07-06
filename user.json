@@ -1,0 +1,79 @@
+# USER JSON
+```
+{
+  "diffEditor.wordWrap": "on",
+  "editor.wordWrap": "on",
+  "editor.mouseWheelZoom": true,
+  "vim.startInInsertMode": true,
+  "vim.statusBarColors.insert": "",
+  "editor.linkedEditing": true,
+  "editor.fontLigatures": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "terminal.integrated.fontSize": 20,
+  "editor.fontSize": 20,
+  // "editor.fontWeight": "bold",
+
+  "editor.tabSize": 1,
+  "editor.guides.bracketPairsHorizontal": true,
+  "workbench.productIconTheme": "fluent-icons",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": true,
+  "git.enableSmartCommit": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "liveServer.settings.donotShowInfoMsg": true,
+  //  neovim setting
+  "vscode-neovim.highlightGroups.highlights": {
+    "Directory": "vim",
+    "IncSearch": {
+      "backgroundColor": "theme.editor.findMatchBackground",
+      "borderColor": "theme.editor.findMatchBorder"
+    },
+    "Search": {
+      "backgroundColor": "theme.editor.findMatchHighlightBackground",
+      "borderColor": "theme.editor.findMatchHighlightBorder"
+    },
+    "Visual": {
+      "backgroundColor": "theme.editor.selectionBackground"
+    },
+    "Conceal": "vim",
+    "Substitute": "vim"
+  },
+  "vscode-neovim.neovimInitVimPaths.darwin": "$HOME/.config/nvim/init.vim",
+  "vscode-neovim.neovimInitVimPaths.linux": "$HOME/.config/nvim/init.vim",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "tabnine.experimentalAutoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editor.untitled.hint": "hidden",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.showTabs": true,
+  "workbench.colorCustomizations": {
+    // "terminal.background": "#1f1919",
+    // "sideBar.background": "#1e2028",
+    // "panel.background": "#1e2028",
+    "tab.inactiveBackground": "#1e2028",
+    "tab.activeBackground": "#000000"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "string",
+        "settings": {
+          "foreground": "#29e5cf9d"
+        }
+      }
+    ]
+  },
+  "editor.fontVariations": true,
+  "editor.fontFamily": "'Ubuntu Mono','Droid Sans Mono', 'monospace', monospace",
+  "window.zoomLevel": 1,
+  "editor.minimap.autohide": true,
+  "editor.minimap.renderCharacters": false,
+  "todohighlight.isEnable": false
+}
+```
