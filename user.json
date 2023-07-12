@@ -75,14 +75,6 @@
   "editor.minimap.autohide": true,
   "editor.minimap.renderCharacters": false,
   "todohighlight.isEnable": false,
-  //changing color of scrollbar 
-   "workbench.colorCustomizations": {
-    "scrollbarSlider.background": "#0e54b5f2",
-    "scrollbarSlider.hoverBackground": "#0e54b5f2",
-    "scrollbarSlider.activeBackground": "#0e54b5f2",
-    "scrollbarSlider.border": "#646464",
-    "scrollbar.shadow": "#000000",
-    "scrollbarSlider.shadow": "#000000"
-  }
+
 }
 ```
