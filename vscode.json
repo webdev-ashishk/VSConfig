@@ -1,0 +1,127 @@
+{
+  "diffEditor.wordWrap": "on",
+  "editor.wordWrap": "on",
+  "editor.mouseWheelZoom": true,
+
+  "editor.linkedEditing": true,
+  "editor.fontLigatures": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "terminal.integrated.fontSize": 15,
+  "editor.fontSize": 18,
+  // "editor.fontWeight": "bold",
+
+  "editor.tabSize": 1,
+  "editor.guides.bracketPairsHorizontal": true,
+  "workbench.productIconTheme": "fluent-icons",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "git.enableSmartCommit": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "tabnine.experimentalAutoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editor.untitled.hint": "hidden",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.showTabs": true,
+  "workbench.colorCustomizations": {
+    // "terminal.background": "#1f1919",
+    // "sideBar.background": "#1e2028",
+    // "panel.background": "#1e2028",
+    // "tab.inactiveBackground": "#1e2028",
+    "tab.activeBackground": "#000000"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      // {
+      //   "scope": "string",
+      //   "settings": {
+      //     "foreground": "#29e5cf9d"
+      //   }
+      // },
+      // {
+      //   "scope": "comment",
+      //   "settings": {
+      //     "foreground": "#f6f6f834" // Your desired color in HEX or RGB format
+      //   }
+      // },
+      // {
+      //   "scope": "meta.function.arguments",
+      //   "settings": {
+      //     "foreground": "#ffffff" // Your desired color for function parameters in HEX or RGB format
+      //   }
+      // }
+      // {
+      //   "scope": "entity.name.function",
+      //   "settings": {
+      //     "foreground": "#d2b343be" // Change the color code to your preferred function name color
+      //   }
+      // }
+    ]
+  },
+
+  "editor.fontVariations": true,
+  "editor.fontFamily": "'Ubuntu Mono','Droid Sans Mono', 'monospace', monospace",
+  "editor.minimap.autohide": true,
+  "editor.minimap.renderCharacters": false,
+  "todohighlight.isEnable": false,
+  "terminal.integrated.automationProfile.windows": {},
+  "json.schemas": [
+    {
+      "exclude": ["node_modules"]
+    }
+  ],
+  "window.zoomLevel": 2
+}
+
+// {
+//   "workbench.colorTheme": "Dracula", // Replace with your preferred theme (e.g., "Monokai")
+//   "editor.tokenColorCustomizations": {
+//     "textMateRules": [
+//       {
+//         "scope": "comment",
+//         "settings": {
+//           "foreground": "#808080" // Change the color code to your preferred comment color
+//         }
+//       },
+//       {
+//         "scope": "variable",
+//         "settings": {
+//           "foreground": "#9CDCFE" // Change the color code to your preferred variable color
+//         }
+//       },
+//       {
+//         "scope": "keyword",
+//         "settings": {
+//           "foreground": "#C586C0" // Change the color code to your preferred keyword color
+//         }
+//       },
+//       {
+//         "scope": "string",
+//         "settings": {
+//           "foreground": "#CE9178" // Change the color code to your preferred string color
+//         }
+//       },
+//       {
+//         "scope": "entity.name.function",
+//         "settings": {
+//           "foreground": "#DCDCAA" // Change the color code to your preferred function name color
+//         }
+//       },
+//       {
+//         "scope": "entity.other.attribute-name",
+//         "settings": {
+//           "foreground": "#9CDCFE" // Change the color code to your preferred attribute name color
+//         }
+//       }
+//       // You can customize more scopes and colors as per your preference
+//     ]
+//   }
+// }
